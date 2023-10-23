@@ -11,7 +11,7 @@ namespace Domain.Entities
 
         public ICollection<User> Users { get; set; } = new HashSet<User>();
 
-        public ICollection<UserRol> UsersRol { get; set; } 
+        public ICollection<UserRol> UsersRols { get; set; } 
         
     }
 }

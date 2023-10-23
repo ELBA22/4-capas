@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Domain.Interfaces
 {
-    public class BaseEntity
+    public interface IUnitOfWork
     {
-        public int Id {get; set;}
+        Task<int> SaveAsync();
     }
 }
