@@ -9,7 +9,7 @@ namespace Domain.Entities
     {
         public int IdUser { get; set; }
 
-        public UserRol Usuarios { get; set;}
+        public User Users { get; set;}
 
         public int IdRol {get; set;}
 
