@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Tasks;
 using API.Dtos;
 using API.Helpers;
@@ -218,4 +220,13 @@ namespace API.Services;
         return jwtSecurityToken;
     }
 
+    public Task<DataUserDto> GetTokenAsynce(LoginDto model)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<string> AddRolAsync(AddRolDto model)
+    {
+        throw new NotImplementedException();
+    }
 }

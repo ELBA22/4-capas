@@ -7,8 +7,8 @@ namespace Domain.Interfaces
 {
     public interface IUnitOfWork
     {
-        object Users { get; }
-        object Rols { get; set; }
+        IUser Users { get; }
+        IRol Rols { get; }
 
         Task<int> SaveAsync();
     }

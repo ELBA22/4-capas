@@ -10,6 +10,5 @@ namespace Domain.Interfaces
     {
         Task<User> GetByUsernameAsync(string username);
         Task<User> GetByRefreshTokenAsync(string refreshToken);
-        
     }
 }
